@@ -20,7 +20,7 @@ really there yet...  :)
 
 DESCRIPTION
 
-This is the alpha release 0.01 of the GedNav module.
+This is the alpha release 0.02 of the GedNav module.
 
 REQUIREMENTS
 
@@ -28,7 +28,10 @@ GedNav was developed using Perl 5.005_03.  Maybe it'll work with older
 versions.  Maybe not.
 
 It is written only in Perl, with standard distribution modules, so you
-don't need any compiler nor special modules.
+don't need any compiler nor special modules.  There are several modules
+required that are not included with the standard Pel distribution:
+Text::Soundex and GDBM_File, to name just a couple.  All required modules
+should be noted by running Makefile.PL.
 
 INSTALLATION
 
